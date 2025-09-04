@@ -1,0 +1,31 @@
+/*#countlabel{
+
+    display: block;
+    font-size: 50px;
+    
+
+}
+
+
+body{
+    text-align: center;
+    
+}
+
+
+.buttons{
+padding: 20px;
+color: black;
+background-color:pink;
+border-radius:5px;
+}*/
+
+
+button{
+    text-align: center;
+
+    color:white;
+    background-color: brown;
+    border:solid gray 1px;
+    border-radius: 3px;
+}
