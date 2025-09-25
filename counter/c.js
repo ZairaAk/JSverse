@@ -1,4 +1,4 @@
-/*const dec=document.getElementById("dec");
+const dec=document.getElementById("dec");
 const reset=document.getElementById("reset");
 const inc=document.getElementById("inc");
 const countlabel=document.getElementById("countlabel");
@@ -20,9 +20,10 @@ reset.onclick = function(){
 
     count=0;
     countlabel.textContent=count;
-}*/
+}
 
 
+/*
 const cb=document.getElementById("cb");
 const visa=document.getElementById("visa");
 const master=document.getElementById("master");
@@ -49,3 +50,4 @@ submit.onclick = function() {
          payemnt.textContent="Please select a payment method";
     }
 }
+*/

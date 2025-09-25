@@ -1,6 +1,0 @@
-{
-    "editor.codeActionWidget.includeNearbyQuickFixes": false,
-    "editor.acceptSuggestionOnCommitCharacter": true,
-    "editor.suggestOnTriggerCharacters": false,
-    "editor.inlineSuggest.enabled": false
-}

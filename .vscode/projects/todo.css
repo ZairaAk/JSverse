@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(243, 196, 255);
+
+}
+
+h1{
+    color: rgb(40, 17, 185);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.container{
+    height:300px;
+    width:300px;
+    text-align:center;
+
+
+    background-color:white;
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Transform Playground</title>
+    <style>
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        min-height: 100vh;
+        background: #f3f4f6;
+        font-family: Arial, sans-serif;
+         perspective: 100px;
+      }
+
+      .box {
+        width: 120px;
+        height: 120px;
+        background: #3b82f6; /* blue */
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+       
+      }
+
+
+      .translate:hover {
+        transform: translate(-40px,20px);
+      }
+
+      .scale:hover{
+        transform:scale(1.2);
+      }
+
+      .rotate:hover{
+        transform:rotate(-15deg);
+      }
+      .skew:hover{
+        transform:skew(10deg,20deg);
+      }
+
+        .combo:hover{
+            transform:translate(20px,40px) rotate(10deg) scale(1.5);
+        }
+       
+        .origin:hover{
+            transform-origin:bottom left;
+            transform:rotate(-20deg);
+        }
+
+        .threeD:hover{
+            transform: rotateY(20deg) rotateX(10deg);
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="box translate">Translate</div>
+    <div class="box scale">Scale</div>
+    <div class="box rotate">Rotate</div>
+    <div class="box skew">Skew</div>
+    <div class="box combo">Combo</div>
+    <div class="box origin">Origin</div>
+    <div class="box threeD">3D</div>
+  </body>
+</html>
